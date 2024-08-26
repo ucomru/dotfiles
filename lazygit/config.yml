@@ -1,8 +1,10 @@
 # https://github.com/jesseduffield/lazygit/blob/master/docs/Config.md
 # ~/.config/lazygit/config.yml
 
-gui:
+git:
+  # Limit hash length for <c-o> to create shorter references.
+  truncateCopiedCommitHashesTo: 7
+
   theme:
     selectedLineBgColor:
-      # - reverse
-      - black
+      - black # reverse
